@@ -9,6 +9,8 @@ pipeline {
         stage ('Build') {
             steps {
                 sh 'mvn -f java-sample-app/pom.xml clean install' 
+	    }
+	}
 		    stage ('move') {
 			    steps {
 				    sh 'rm -rf /chef-repo/cookbooks/tomcat/files/*'
@@ -16,6 +18,4 @@ pipeline {
 			    }
 		    }
             }
-        }
-    }
 }
