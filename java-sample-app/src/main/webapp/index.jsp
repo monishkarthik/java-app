@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Hello World!</title>
+<title>HAI</title>
 </head>
 <body>
 	<h1>kanimozhi</h1>
